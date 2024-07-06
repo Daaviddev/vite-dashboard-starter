@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "herdingbits.file-focus",
+    "johnpapa.vscode-peacock",
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+    "suhelmakkad.shadcn-ui",
+    "amatiasq.sort-imports",
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint"
+  ]
+}

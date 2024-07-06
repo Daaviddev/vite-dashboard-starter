@@ -1,0 +1,20 @@
+{
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "endOfLine": "lf",
+  "printWidth": 100,
+  "tabWidth": 2,
+  "semi": true,
+  "importOrder": [
+    "^(react|react-dom|react-router-dom)(/.*)?$",
+    "<THIRD_PARTY_MODULES>",
+    "^@/(.*)$",
+    "^[./]",
+    "^@common/styles/(.*)$",
+    "(.css)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}
