@@ -13,8 +13,8 @@
     "format": "prettier --write .",
     "preview": "vite preview",
     "lint-staged": "{\"*.{js,jsx,ts,tsx}\": [\"eslint --fix\", \"prettier --write\"], \"*.{json,md}\": [\"prettier --write\"]}",
-    "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d docs"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.0",
