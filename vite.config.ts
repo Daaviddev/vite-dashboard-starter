@@ -4,9 +4,9 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/vite-dashboard-starter/',
+  base: '/vite-dashboard-starter/', // Set the correct base path
   build: {
-    outDir: 'docs', // This will output build files to a 'docs' folder
+    outDir: 'docs', // Output build files to 'docs' folder
   },
   resolve: {
     alias: {
